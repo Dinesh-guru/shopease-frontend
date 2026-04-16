@@ -60,7 +60,7 @@ const Login = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="dinesh@shopease.com"
+              placeholder="gmail id"
               style={styles.input}
               disabled={loading}
             />

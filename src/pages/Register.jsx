@@ -74,7 +74,7 @@ const Register = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Dinesh Kumar"
+              placeholder="User Name"
               style={styles.input}
               disabled={loading}
             />
@@ -87,7 +87,7 @@ const Register = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="dinesh@shopease.com"
+              placeholder="gmail id"
               style={styles.input}
               disabled={loading}
             />
